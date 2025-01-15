@@ -1,0 +1,19 @@
+# Tools for Creating Interfaces in Python
+
+## 1. PAGE
+- **Description:** A tool for creating interfaces based on Tkinter.
+- **Official Website:** [PAGE](https://page.sourceforge.io/)
+- **Advantages:** Simple and visual.
+- **Disadvantages:** Generated code can be difficult to maintain.
+
+## 2. PyQt
+- **Description:** A framework for sophisticated graphical interfaces.
+- **Official Documentation:** [PyQt Documentation](https://www.riverbankcomputing.com/software/pyqt/intro)
+- **Advantages:** Highly customizable, ideal for professional projects.
+- **Disadvantages:** Steeper learning curve.
+
+## 3. Kivy
+- **Description:** A library for creating modern and responsive interfaces.
+- **Official Website:** [Kivy](https://kivy.org/)
+- **Advantages:** Focus on mobile and interactive applications.
+- **Disadvantages:** Initial setup can be challenging.

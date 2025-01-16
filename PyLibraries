@@ -1,19 +1,84 @@
-# Tools for Creating Interfaces in Python
 
-## 1. PAGE
-- **Description:** A tool for creating interfaces based on Tkinter.
-- **Official Website:** [PAGE](https://page.sourceforge.io/)
-- **Advantages:** Simple and visual.
-- **Disadvantages:** Generated code can be difficult to maintain.
 
-## 2. PyQt
-- **Description:** A framework for sophisticated graphical interfaces.
-- **Official Documentation:** [PyQt Documentation](https://www.riverbankcomputing.com/software/pyqt/intro)
-- **Advantages:** Highly customizable, ideal for professional projects.
-- **Disadvantages:** Steeper learning curve.
+Tools for Creating Interfaces in Python  
 
-## 3. Kivy
-- **Description:** A library for creating modern and responsive interfaces.
-- **Official Website:** [Kivy](https://kivy.org/)
-- **Advantages:** Focus on mobile and interactive applications.
-- **Disadvantages:** Initial setup can be challenging.
+------------------------------------------
+
+1. PAGE (Python Automatic GUI)  
+Description: A tool for creating interfaces based on Tkinter.  
+Official Website: [PAGE](https://page.sourceforge.io/)  
+Advantages: Simple and visual.  
+Disadvantages: Generated code can be difficult to maintain.  
+
+---  
+
+2. Qt Designer (For PyQt or PySide)  
+Description: A visual tool included in the Qt Framework to intuitively design graphical interfaces.  
+How it works:  
+- Drag and drop widgets (buttons, text boxes, etc.) in a visual editor.  
+- Export the design as a `.ui` file, which can be converted to Python using tools like `pyuic` (for PyQt) or `pyside-uic` (for PySide).  
+Highlights:  
+- Full support for layouts, styles, and modern themes.  
+- Cross-platform (Windows, macOS, Linux).  
+Installation: Part of the Qt package. Can be installed separately with PyQt/PySide.  
+
+---  
+
+3. wxFormBuilder (For wxPython)  
+Description: A visual editor for creating interfaces using the wxPython framework.  
+How it works:  
+- Create interfaces with native widgets in the editor.  
+- Export layouts as Python code or XML files that can be loaded with wxPython.  
+Highlights:  
+- Support for native-looking interfaces on Windows, macOS, and Linux.  
+- Ideal for GUIs that feel "native."  
+Installation: Available for download from the official wxFormBuilder website.  
+
+---  
+
+4. Kivy Designer (For Kivy)  
+Description: A visual editor for creating interfaces with the Kivy framework.  
+How it works:  
+- Allows you to visually create `.kv` files, which define the interface in Kivy's style.  
+- Interfaces are designed to be responsive, especially for mobile devices.  
+Highlights:  
+- Focus on modern and responsive interfaces.  
+- Support for custom themes.  
+Installation: The project is not officially maintained, but forks with support are available on GitHub.  
+
+---  
+
+5. Glade (For Gtk+)  
+Description: A visual tool for designing interfaces with the Gtk+ framework (accessible via PyGObject in Python).  
+How it works:  
+- Create GUIs by dragging and dropping widgets.  
+- Export `.glade` or `.xml` files that can be dynamically loaded in Python.  
+Highlights:  
+- Lightweight interfaces that integrate well with Linux systems.  
+- Support for themes and internationalization.  
+Installation: Available in Linux package managers or for download.  
+
+---  
+
+6. Figma/Adobe XD + PyWebview (For PyWebview)  
+Description: Modern design tools like Figma or Adobe XD allow you to visually create interfaces that can be exported as HTML/CSS. These interfaces can be integrated into Python using PyWebview.  
+How it works:  
+- Design visually in Figma or Adobe XD.  
+- Export as front-end code (HTML/CSS/JS).  
+- Use PyWebview to integrate them with a Python backend.  
+Highlights:  
+- Enables creation of extremely modern interfaces.  
+- Flexibility to use web technologies.  
+
+---  
+
+7. GtkBuilder via Stetic (MonoDevelop)  
+Description: Similar to Glade, but integrated into the MonoDevelop IDE.  
+How it works:  
+- Design GUIs visually and export `.ui` or `.glade` files.  
+- Use with PyGObject to create Gtk-style GUIs.  
+Highlights:  
+- Focused on Linux systems.  
+- An alternative to Glade.  
+
+---  
